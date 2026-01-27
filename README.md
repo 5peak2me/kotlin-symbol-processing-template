@@ -2,7 +2,8 @@
 
 [![Build](https://github.com/5peak2me/kotlin-symbol-processing-template/workflows/Build/badge.svg)][gh:build]
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-blue?logo=Kotlin&logoColor=white.svg)](https://kotlinlang.org)
-[![KSP](https://jitpack.io/v/5peak2me/ktx.svg)](https://jitpack.io/#5peak2me/ktx)
+[![KSP](https://img.shields.io/badge/KSP-2.2.0--2.0.2-green?logo=Kotlin&logoColor=white.svg)](https://github.com/google/ksp)
+[![KotlinPoet](https://img.shields.io/badge/KotlinPoet-2.2.0-00bdd6?logo=Kotlin&logoColor=white.svg)](https://square.github.io/kotlinpoet)
 
 > [!NOTE]
 > Click the <kbd>Use this template</kbd> button and clone it in [IntelliJ IDEA][jb:download-ij] or [Android Studio][jb:download-as].
