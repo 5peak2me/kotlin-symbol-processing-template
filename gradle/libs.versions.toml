@@ -8,7 +8,7 @@ espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.11.0"
 activityCompose = "1.13.0"
 composeBom = "2025.12.01"
-ksp = "2.2.0-2.0.2"
+ksp = "2.3.9"
 kotlinpoet = "2.2.0"
 
 [libraries]
