@@ -7,6 +7,7 @@ java {
     targetCompatibility = JavaVersion.VERSION_11
 }
 kotlin {
+    jvmToolchain(17)
     compilerOptions {
         jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11
         explicitApi()
@@ -16,4 +17,7 @@ dependencies {
     implementation(libs.ksp.api)
     implementation(libs.kotlinpoet.ksp)
     implementation(project(":runtime"))
+
+    testImplementation(libs.junit)
+    testImplementation(libs.mockito.kotlin)
 }

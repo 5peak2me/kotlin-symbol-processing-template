@@ -54,12 +54,14 @@ jobs:
           # processor
           mkdir -p processor/src/main/java/${GROUP//.//}
           cp -R processor/src/main/java/com/github/speak2me/ksp/template/* processor/src/main/java/${GROUP//.//}/
-          # mkdir -p processor/src/test/java/${GROUP//.//}
-          # cp -R processor/src/test/java/com/github/speak2me/ksp/template/* processor/src/test/java/${GROUP//.//}/
+          mkdir -p processor/src/test/java/${GROUP//.//}
+          cp -R processor/src/test/java/com/github/speak2me/ksp/template/* processor/src/test/java/${GROUP//.//}/
 
-          # gradle-plugin
+          # runtime
           mkdir -p runtime/src/main/java/${GROUP//.//}
           cp -R runtime/src/main/java/com/github/speak2me/ksp/template/* runtime/src/main/java/${GROUP//.//}/
+          mkdir -p runtime/src/test/java/${GROUP//.//}
+          cp -R runtime/src/test/java/com/github/speak2me/ksp/template/* runtime/src/test/java/${GROUP//.//}/
 
           # Cleanup
           rm -rf \

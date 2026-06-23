@@ -29,6 +29,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 
 kotlinpoet-ksp = { group = "com.squareup", name = "kotlinpoet-ksp", version.ref="kotlinpoet" }
 ksp-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version.ref = "ksp" }
+mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version = "5.4.0" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

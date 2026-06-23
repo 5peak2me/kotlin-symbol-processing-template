@@ -1,13 +1,8 @@
 package com.github.speak2me.ksp.uistate
 
-import com.github.speak2me.ksp.uistate.annotations.DataModel
-import com.github.speak2me.ksp.uistate.annotations.Sealed
+import com.github.speak2me.ksp.template.Template
 
-@Sealed(
-  models = [
-    DataModel(type = User::class)
-  ]
-)
+@Template
 sealed interface UiState {
 
   data object Loading : UiState
