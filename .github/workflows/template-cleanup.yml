@@ -5,6 +5,9 @@ name: Template Cleanup
 on:
   push:
     branches: [main]
+    paths:
+      - '.github/template-cleanup/**'
+      - '.github/workflows/template-cleanup.yml'
 
 jobs:
 
