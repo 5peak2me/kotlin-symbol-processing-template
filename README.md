@@ -4,6 +4,7 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.3.21-blue?logo=Kotlin&logoColor=white.svg)](https://kotlinlang.org)
 [![KSP](https://img.shields.io/badge/KSP-2.3.9-green?logo=Kotlin&logoColor=white.svg)](https://github.com/google/ksp)
 [![KotlinPoet](https://img.shields.io/badge/KotlinPoet-2.3.0-00bdd6?logo=Kotlin&logoColor=white.svg)](https://square.github.io/kotlinpoet)
+[![Gradle](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2F5peak2me%2Fkotlin-symbol-processing-template%2Fmain%2Fgradle%2Fwrapper%2Fgradle-wrapper.properties&search=gradle-%28%5B0-9.%5D%2B%29-%28%3F%3Abin%7Call%29%5C.zip&replace=%241&label=Gradle&color=blue&logo=gradle)](https://gradle.org)
 
 > [!NOTE]
 > Click the <kbd>Use this template</kbd> button and clone it in [IntelliJ IDEA][jb:download-ij] or [Android Studio][jb:download-as].

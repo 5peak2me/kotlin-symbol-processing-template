@@ -6,7 +6,7 @@
 - [x] Create a new [Kotlin Symbol Processing Template][template] project.
 - [ ] Get familiar with the [template documentation][template].
 - [ ] Adjust the [group](./gradle.properties) and [version](./gradle.properties), as well as the [SymbolProcessorProvider](./processor/src/main/resources/META-INF/services/com.google.devtools.ksp.processing.SymbolProcessorProvider) in [processor](./processor/src/main/resources/META-INF/services).
-- [ ] Adjust the [packgae name](/src/main/resources/META-INF/plugin.xml) in [processor](./processor) and [runtime](./runtime).
+- [ ] Adjust the [packgae name]() in [processor](./processor) and [runtime](./runtime).
 - [ ] Adjust the ksp description in `README` (see [Tips][docs:ksp-description])
 - [ ] [Publish a ksp manually](https://vanniktech.github.io/gradle-maven-publish-plugin/) for the first time.
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [Kotlin Symbol Processing Template][template] to be notified about releases containing new features and fixes.
@@ -23,11 +23,11 @@ You can add ksp plugin to your top-level build script using the following config
 
 ```diff
 plugins {
-  alias(libs.plugins.android.application) apply false
-  alias(libs.plugins.kotlin.android) apply false
-  alias(libs.plugins.kotlin.compose) apply false
-  alias(libs.plugins.kotlin.jvm) apply false
-+  alias(libs.plugins.ksp) apply false
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.compose) apply false
+    alias(libs.plugins.kotlin.jvm) apply false
++   alias(libs.plugins.ksp) apply false
 }
 
 dependencies {
@@ -42,8 +42,8 @@ or via the
 apply plugin: "com.google.devtools.ksp"
 
 dependencies {
-  implementation(project(":runtime"))
-  ksp(project(":processor"))
+    implementation(project(":runtime"))
+    ksp(project(":processor"))
 }
 ```
 
